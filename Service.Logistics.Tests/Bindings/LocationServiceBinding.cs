@@ -6,23 +6,19 @@ using TechTalk.SpecFlow;
 
 namespace Service.Logistics.Tests.Bindings
 {
+    ///TO DO: it s needed to work on the test clearly. Now it doesnt work properly.
+    
     [Binding]
     public class LocationServiceBinding
     {
         private readonly HttpClient client = new HttpClient();
         private HttpResponseMessage response;
 
-        [Given("the API is running")]
-        public void GivenTheApiIsRunning()
-        {
-            // Assume the API is running; you may add further setup steps if needed
-        }
-
         [When(@"a user sends a POST request to ""(.*)"" with the following request body:")]
         public async Task WhenAUserSendsAPostRequestToWithTheFollowingRequestBody(string endpoint, string requestBody)
         {
             var requestContent = new StringContent(requestBody, Encoding.UTF8, "application/json");
-            response = await client.PostAsync($"http://localhost:5070/api/{endpoint}", requestContent);
+            response = await client.PostAsync($"/api/{endpoint}", requestContent);
         }
 
         [Then(@"the response should contain a collection of TruckResponseDto")]

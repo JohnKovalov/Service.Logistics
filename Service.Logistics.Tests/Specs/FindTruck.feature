@@ -1,7 +1,6 @@
 ﻿Feature: FindTruck API
 
 Scenario: Finding trucks with a valid request
-	Given the API is running
 	When a user sends a POST request to "/api/Location/FindTruck" with the following request body:
 		"""
 		{
