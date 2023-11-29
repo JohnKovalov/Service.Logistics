@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Logistics", "Service.Logistics\Service.Logistics.csproj", "{F3BA518E-6313-4F90-A747-515638A0A05B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{052835AE-6D3E-447F-920F-A7478178FB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Logistics.Tests", "Service.Logistics.Tests\Service.Logistics.Tests.csproj", "{A7B955F0-242D-4F1E-874B-1C96B352F20B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3BA518E-6313-4F90-A747-515638A0A05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BA518E-6313-4F90-A747-515638A0A05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BA518E-6313-4F90-A747-515638A0A05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BA518E-6313-4F90-A747-515638A0A05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B955F0-242D-4F1E-874B-1C96B352F20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B955F0-242D-4F1E-874B-1C96B352F20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B955F0-242D-4F1E-874B-1C96B352F20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B955F0-242D-4F1E-874B-1C96B352F20B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7B955F0-242D-4F1E-874B-1C96B352F20B} = {052835AE-6D3E-447F-920F-A7478178FB5A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36C89FDA-6FF8-48E9-8738-1D6D779AD8D4}
+	EndGlobalSection
+EndGlobal
